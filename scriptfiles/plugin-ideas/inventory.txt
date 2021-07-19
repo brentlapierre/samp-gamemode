@@ -1,0 +1,11 @@
+#define ITEM_CATEGORY_WEAPON
+#define ITEM_CATEGORY_KEY
+
+#define ITEM_TYPE_KEY_CAR
+#define ITEM_TYPE_KEY_HOUSE
+
+
+native GivePlayerInventoryItem(playerid, item_category, item_type, data[]);
+  returns itemid
+native GetInventoryItemData(itemid);
+  returns item data

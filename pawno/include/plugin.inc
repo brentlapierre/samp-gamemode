@@ -1,0 +1,1 @@
+native plugin_version();
